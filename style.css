@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 1128px;
+    text-align: center;    
+    margin: 0px auto;
+}
+
+header{
+    display: flex;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+header h1{
+    border-bottom: 3px solid black;
+}
+
+header img{
+    object-fit: contain;
+    max-width: 50px;
+}
+
+form{
+    margin: 50px 0 30px 0;
+}
+
+form input{
+    border-style: none;
+    border-bottom: 2px solid black;
+    padding: 6px 40px;
+    margin: 0 10px;
+}
+
+form input:focus{
+    border-width: 0;
+    border-bottom: 2px solid black;
+}
+
+
+form button{
+    border-style: none;
+    background-color: rgb(70, 161, 247);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(33, 144, 248);
+}
+
+table{
+    margin: 0 auto;
+    width: 60%;
+}
+
+table thead td{
+    border-bottom: 3px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+table tbody td{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/paper.png" alt="paper">
+            <h1>Contacts Schedule</h1>
+        </header>
+        <form id="form">
+            <input id="nameInput" type="text" placeholder="Name" required>
+            <input id="numberInput" type="Number" placeholder="Phone (ddd)" min="10000000000" max="99999999999" required>
+            <button id="submitBtn" type="submit">Register</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Phone</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="firstRow">
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>    
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
